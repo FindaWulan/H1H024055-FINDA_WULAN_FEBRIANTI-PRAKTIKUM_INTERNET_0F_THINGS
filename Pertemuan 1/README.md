@@ -20,13 +20,15 @@ Program ini adalah pengembangan dari Percobaan 2A (kendali aktuator berbasis sat
 ### Percobaan 1A — Akuisisi Data Sensor DHT11
 Sensor DHT11 terhubung ke GPIO 4 pada NodeMCU.
 
-![Percobaan 1A: Akuisisi Data Sensor DHT11](sensor_normal.jpeg)
+![Percobaan 1A: Akuisisi Data Sensor DHT11](<img width="720" height="1280" alt="sesor normal" src="https://github.com/user-attachments/assets/2b4f294d-20fc-4b2f-aa60-5c5fda600cdb" />
+)
 
 
 ### Percobaan 2A — Kendali Aktuator Relay Berdasarkan Data Sensor
 Pengembangan dari rangkaian 1A dengan penambahan modul relay/LED. Pin kendali relay/LED terhubung ke GPIO 5 melalui resistor pembatas arus.
 
-![Percobaan 2A: Kendali Aktuator Relay Berdasarkan Data Sensor](sensor_relay.jpeg)
+![Percobaan 2A: Kendali Aktuator Relay Berdasarkan Data Sensor](<img width="720" height="1280" alt="Sensor Relay" src="https://github.com/user-attachments/assets/e30ff591-d5d3-4c54-a33a-1b23bf4eafba" />
+)
 
 ## 3. Kode Program
 
