@@ -34,6 +34,15 @@
 | RSSI | -59 dBm |
 | LED Indikator | Menyala |
 
+### Dokumentasi Percobaan 2A 
+
+<img width="960" height="1280" alt="Terhubung " src="https://github.com/user-attachments/assets/b6340eed-6ab7-48db-876f-112d8b5cac6f" />
+Gambar 2.1 Jika terhubung
+
+<img width="960" height="1280" alt="Tidak terhubung ssid salah" src="https://github.com/user-attachments/assets/2477b3a5-39d5-4cc8-bcf9-88cd1b61db5e" />
+Gambar 2.2 Jika ssid salah maka led tidak menyala
+
+
 ### Program Dasar
 Menggunakan `WiFi.mode(WIFI_STA)` lalu `WiFi.begin(ssid, password)`, dengan `while (WiFi.status() != WL_CONNECTED)` untuk menunggu koneksi sebelum menampilkan IP, MAC, dan RSSI ke Serial Monitor.
 
@@ -47,6 +56,11 @@ Menggunakan `WiFi.mode(WIFI_STA)` lalu `WiFi.begin(ssid, password)`, dengan `whi
 | IP Address AP | 192.168.4.1 (default) |
 | Perangkat berhasil terhubung? | Ya |
 | Jumlah perangkat terhubung | 3 |
+
+### Dokumentasi Percobaan2B
+
+<img width="739" height="1600" alt="Terkoneksi " src="https://github.com/user-attachments/assets/242061c0-548f-4971-bb3d-e29e3b948a68" />
+Gambar 2.3 Access Point dapat Terkonek di handphone
 
 ### Program Dasar
 Menggunakan `WiFi.mode(WIFI_AP)` lalu `WiFi.softAP(ap_ssid, ap_password)`. IP default AP (`192.168.4.1`) didapat dari `WiFi.softAPIP()`, dan jumlah client dipantau lewat `WiFi.softAPgetStationNum()` di `loop()`.
